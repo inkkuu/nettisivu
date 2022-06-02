@@ -89,7 +89,7 @@ button:hover{
     overflow:hidden;
     white-space:nowrap;
     cursor:pointer;
-    font-size:30px;
+    font-size:50px;
     color:#ccc;
 }
 .rate:not(:checked) > label:before {
@@ -108,4 +108,7 @@ button:hover{
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
+}
+input{
+  width: 250px;
 }

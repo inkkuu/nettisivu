@@ -18,7 +18,6 @@
           <li><a href="minusta.html">Minusta</a></li>
           <li><a href="harrastus.html">Harrastukseni</a></li>
           <li><a href="cv.html">Työ kokemukseni</a></li>
-          <li><a href="koulu.html">koulutukseni</a></li>
           <li><a href="palaute.html">Palautetta</a></li>
         </ul>
     </nav>
@@ -28,10 +27,18 @@
             <h2>Haluaisitko antaa palautetta</h2>
 
             <div class="field">
+                  <label for="email">Sähköposti</label>
+                  <br />
+                  <input type="email" name="email" id="email" required />
+                </div>
+              </div>
+              <br>
+            <div class="field">
                 <label for="message">Palautteesi</label>
                 <br/>
                 <textarea type="text" name="message" id="message" required></textarea>
               </div>
+              <p>Montako tähteä antaisit?</p>
               <div class="rate">
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>

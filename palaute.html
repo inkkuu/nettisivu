@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+    <script src="lomakeJava.js" charset="utf-8"></script>
     <title>Kysely</title>
 </head>
 <body>
@@ -25,18 +26,18 @@
     <section>
         <article>
             <h2>Haluaisitko antaa palautetta</h2>
-
+            <form class="" action="index.html" method="post" onsubmit="return tarkasta(this)">
             <div class="field">
                   <label for="email">Sähköposti</label>
                   <br />
-                  <input type="email" name="email" id="email" required />
+                  <input type="email" name="email" id="email" />
                 </div>
               </div>
               <br>
             <div class="field">
                 <label for="message">Palautteesi</label>
                 <br/>
-                <textarea type="text" name="message" id="message" required></textarea>
+                <textarea type="text" name="message" id="message"></textarea>
               </div>
               <p>Montako tähteä antaisit?</p>
               <div class="rate">
@@ -52,7 +53,7 @@
                 <label for="star1" title="text">1 star</label>
               </div>
               <br></br><br></br>
-              <button id="laheta" type="submit" value="Lähetä">Lähetä</button>
+              <button id="laheta" type="submit" value="laheta" onclick="tarkista(formi)">Lähetä</button>
             </div>
           </form>
         </div>

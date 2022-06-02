@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="lomakeJava.js" charset="utf-8"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
@@ -26,20 +27,32 @@
     <section>
         <article>
             <h2>Haluaisitko antaa palautetta</h2>
+<<<<<<< HEAD
             <form class="" action="index.html" method="post" onsubmit="return tarkasta(this)">
             <div class="field">
                   <label for="email">Sähköposti</label>
                   <br />
                   <input type="email" name="email" id="email" />
                 </div>
+=======
+            <form id="formi">
+            <div class="field">
+                  <label for="email">Sähköposti</label>
+                  <br />
+                  <input type="email" name="email" id="email" required />
+>>>>>>> 296c329fb06bfcf29a049b0a68e72ece5eec8fcd
               </div>
               <br>
             <div class="field">
                 <label for="message">Palautteesi</label>
                 <br/>
+<<<<<<< HEAD
                 <textarea type="text" name="message" id="message"></textarea>
+=======
+                <textarea type="text" name="message" id="message" placeholder="Laita palautteesi tähän" required></textarea>
+>>>>>>> 296c329fb06bfcf29a049b0a68e72ece5eec8fcd
               </div>
-              <p>Montako tähteä antaisit?</p>
+                <p>Montako tähteä antaisit?</p>
               <div class="rate">
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>
@@ -52,7 +65,12 @@
                 <input type="radio" id="star1" name="rate" value="1" />
                 <label for="star1" title="text">1 star</label>
               </div>
+<<<<<<< HEAD
               <br></br><br></br>
+=======
+            </form>  
+            <br></br><br></br>
+>>>>>>> 296c329fb06bfcf29a049b0a68e72ece5eec8fcd
               <button id="laheta" type="submit" value="laheta" onclick="tarkista(formi)">Lähetä</button>
             </div>
           </form>

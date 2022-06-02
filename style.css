@@ -2,6 +2,10 @@ body html {
   margin: 0;
   height: 100%;
 }
+body{
+  background-image: url('https://wallpaperaccess.com/full/432527.jpg');
+  max-width: 100%
+}
 
 header {
   background-color: #0011A0;

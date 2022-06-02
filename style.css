@@ -21,7 +21,12 @@ nav li {
   list-style-type: none;
   display: inline;
 }
-
+section{
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
 a {
   color: #FFF;
   padding-left: 10px;
@@ -45,6 +50,8 @@ footer {
   height: 150px;
   margin: -8px;
   font-family: 'Raleway';
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {

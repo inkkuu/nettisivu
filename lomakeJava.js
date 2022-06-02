@@ -22,3 +22,4 @@ for(var i = 0; i < radionapit.length; i++)
      alert('Et ole valinnut tähteä');
      return false;
    }
+}
